@@ -1,0 +1,15 @@
+<head>
+<title> E toamna </title>
+</head>
+<body>
+<section>
+<h1> Fructele toamnei </h1>
+<article> <h4>Mere </h4></article>
+<article><h4> Struguri</h4> </article>
+</section>
+<section>
+<h1> Legumele toamnei </h1>
+<article><h4> Vinete </h4></article>
+<article><h4>Dovleci </h4></article>
+</section>
+</body>

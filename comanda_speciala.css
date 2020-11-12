@@ -1,0 +1,36 @@
+h1 { 
+    font: italic bold 30px Georgia, serif;
+    text-align: center;
+}
+
+#folie {
+    width: 50px;
+    height: 50px;
+    border: solid;
+    background-color: blanchedalmond;
+    display: block;
+}
+#rgb{
+    display: block;
+}
+.mystyle {
+    width: 200px;
+    height: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+.mystyle_list {
+    color:palevioletred;
+    font: italic;
+
+}
+#parinte{
+    border: solid;
+    width: 70px;
+    height: 50px;
+}
+.roz{background-color:papayawhip;}
+.galben{background-color:yellow;}
+.verde{background-color:green;}

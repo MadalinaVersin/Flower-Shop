@@ -1,0 +1,182 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FCF7FF; 
+}
+
+h1 {
+  font: italic bold 30px Georgia, serif;
+}
+
+h2{
+  font: italic bold 25px Georgia, serif;
+  margin: 15px;
+}
+h4{
+  font: italic bold 15px Georgia, serif;
+}
+#nv{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  z-index: 3;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: width 10s, background-color 8s;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition: width 10s, background-color 8s;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  width: 200px;
+  background-color:linen;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table 
+{
+width:30%;
+border: 2px solid peachpuff;
+border-radius: 10px;
+background:#FFCCCC;
+}
+
+tr:nth-of-type(2n) {
+  background:lightgoldenrodyellow;
+}
+
+tr:hover {
+background:peachpuff;
+color:rosybrown;
+}
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  color: peru;
+  border: 3px solid #73AD21;
+  z-index: 4;
+}
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: lightblue;
+  }
+  #imag1
+  {
+    width: 100%;
+    height: auto;
+  }
+  div.fixed
+  {
+    width: 100%;
+    height: auto;
+    margin:0;
+  }
+}
+#tel
+{
+  visibility:visible ;
+}
+
+div#tel > p
+{
+  color: darkred;
+  font-size: 20px;
+
+}
+div#tel
+{
+  padding: 15px;
+  margin: 20px;
+  width: 300px;
+  height: 100px;
+  background-color:rosybrown;
+  border: 1px solid black;
+}
+div#tel {
+  -ms-transform: skewX(20deg); 
+  -webkit-transform: skewX(20deg); 
+  transform: skewX(20deg); 
+}
+
+div#tel
+{
+  position: relative;
+  -webkit-animation-name: example;  
+  -webkit-animation-duration: 3s; 
+  -webkit-animation-fill-mode: forwards; 
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes example {
+  from {left: 0px;}
+  to {left: 200px; background-color: Salmon;}
+}
+ 
+ul ol{
+  visibility: hidden;
+}
+ul li:hover ol {
+   color:blue; visibility: visible;
+  }
+.cl{
+  display: inline-block;
+  vertical-align: top;
+}

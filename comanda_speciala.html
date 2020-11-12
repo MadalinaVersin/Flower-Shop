@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comanda speciala</title>
+<meta charset="UTF-8">
+  <meta name="description" content="Site florarie">
+  <meta name="keywords" content="Flori,Buchete,Aranjamente">
+  <meta name="author" content="Versin Madalina">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="TW-proiect" target="_blank">
+<link rel="stylesheet" type="text/css" href="comanda_speciala.css">
+<script src="comanda_speciala.js">
+</script>
+</head>
+<body>
+
+<h1 id="titlu">Comanda speciala</h1>
+<p id="par">Apasati pe butonul Start pentru a aparea culorile posibile pentru folia/recipientul aranjamentului floral.<br>
+Apasati Stop pentru a pastra culoarea.</p>
+<div id="culoareImplicita"> Daca va place culoarea implicita puteti sa treceti peste acest camp.<div> 
+<input id="start" type="button" value="Start">
+<input id="stop" type="button" value="Stop">
+<div id="folie"></div> 
+<div id="rgb"></div>
+<p id="flori">Selectati florile principale care vreti sa fie in buchet:</p>
+<input class="f" type="radio" name="r1" value="trandafir">Trandafiri<br>
+<input class="f" type="radio" name="r1" value="zambile">Zambile<br>
+<input class="f" type="radio" name="r1" value="frezii">Frezii<br>  
+<input class="f" type="radio" name="r1" value="lalele">Lalele<br>
+<input class="f" type="radio" name="r1" value="bujori">Bujori<br>
+<input class="f" type="radio" name="r1" value="orhidee">Orhidee<br>  
+<input class="f" type="radio" name="r1" value="hortensia">Hortensia<br>
+<input class="f" type="radio" name="r1" value="lisianthus">Lisianthus<br>
+<div> <a href="http://localhost:7000/">Casa florilor</a></div>
+
+<div>
+<p>Data la care se pune comanda:</p>
+<p id="dataCurenta"></p>
+</div>
+<div>
+<p>Data la care trebuie sa preluati comanda:</p>
+<p id="dataPreluare"></p>
+</div> 
+<div>
+<p > Pretul buchetului(apasati pe sagetile dreapta si stanga pentru a marii sau micii pretul):</p>
+<p id="pret"></p>
+</div>
+
+<p id="cont">Date personale: </p>
+<p>Nume:</p>
+<input type="text" id="nume" value="Nume">
+<p>Prenume:</p>
+<input type="text" id="prenume" value="Prenume">
+<br>
+<br>
+<div id="atentie">
+<p id="scris">ATENTIE! Comenzile se pot face doar pentru magazinele din Bucuresti!</p>
+</div>
+<br>
+<div id="parinte">
+<p id="copil"> Comanda<p>
+</div>
+<div>
+<input id="trimite" type="button" value="Trimite">
+</div>
+</body>
+</html>
